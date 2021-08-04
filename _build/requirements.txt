@@ -1,3 +1,2 @@
-pyvcloud==23.0.2
 openshift==0.12.1
-hvac==0.10.14
+hvac==0.11.0
