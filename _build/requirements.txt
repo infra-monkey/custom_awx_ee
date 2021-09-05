@@ -1,4 +1,3 @@
-ansible~=2.10
 openshift
 hvac
 proxmoxer
