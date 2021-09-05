@@ -10,7 +10,7 @@ additional_build_steps:
     - COPY --from=quay.io/project-receptor/receptor:1.0.0 /usr/bin/receptor /usr/bin/receptor
     - RUN mkdir -p /var/run/receptor
     - RUN pip3 uninstall -y ansible-core
-    - RUN pip3 install ansible-core~=2.10
+    - RUN pip3 install ansible-core~=2.11
     - ADD run.sh /run.sh
     - CMD /run.sh
     - USER 1000
